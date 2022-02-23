@@ -5,7 +5,7 @@
  * @@作者: Devilyuan
  * @Date: 2022-01-18 14:13:25
  * @@最新修改内容: 
- * @LastEditTime: 2022-01-18 15:22:57
+ * @LastEditTime: 2022-02-23 22:13:05
 -->
 <template>
   <div class="yzjs_wrap">
@@ -90,6 +90,7 @@ export default {
   margin: 20px auto;
   border: 1px solid #ccc;
   padding: 0 20px;
+  
 }
 .item_wrap {
   margin: 10px 0;

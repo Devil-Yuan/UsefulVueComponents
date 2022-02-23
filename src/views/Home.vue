@@ -5,7 +5,7 @@
  * @@作者: Devilyuan
  * @Date: 2022-01-05 15:11:34
  * @@最新修改内容: 
- * @LastEditTime: 2022-02-07 15:34:12
+ * @LastEditTime: 2022-02-23 22:02:59
 -->
 <template>
   <div>
@@ -18,12 +18,15 @@
       <el-button type="primary" @click="toPage(4)">echarts借鉴</el-button>
       <el-button type="primary" @click="toPage(5)">vue装饰器练习</el-button>
     </el-row>
+    <el-row style="margin-top:15px">
+      <el-button type="primary" @click="toPage(6)">验证码组件</el-button>
+    </el-row>
   </div>
 </template>
 
 <script>
-import { create, all } from 'mathjs'
-const math = create(all)
+import { create, all } from "mathjs";
+const math = create(all);
 export default {
   components: {},
   data() {
@@ -57,6 +60,9 @@ export default {
         case 5:
           this.$router.push("/decorator");
           break;
+        case 6:
+          this.$router.push("/yzm");
+          break;
       }
     },
   },
@@ -67,6 +73,7 @@ export default {
 })(3);
 </script>
 
-<style scoped >
+<style  >
+
 </style>
 
