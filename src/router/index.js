@@ -5,7 +5,7 @@
  * @@作者: Devilyuan
  * @Date: 2022-01-05 15:11:34
  * @@最新修改内容: 
- * @LastEditTime: 2022-01-18 16:15:43
+ * @LastEditTime: 2022-02-23 22:01:10
  */
 import Vue from "vue";
 import VueRouter from "vue-router";
@@ -66,6 +66,14 @@ const routes = [
     component: () =>import(/* webpackChunkName: "about" */ "@/views/vueDecoratorptic/index.vue"),
     meta:{
       name:'vue装饰器练习'
+    }
+  },
+  {
+    path: "/yzm",
+    name: "decyzmorator",
+    component: () =>import(/* webpackChunkName: "about" */ "@/views/yzm/index.vue"),
+    meta:{
+      name:'验证码组件'
     }
   },
   
