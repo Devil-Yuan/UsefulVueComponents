@@ -76,6 +76,14 @@ const routes = [
       name:'验证码组件'
     }
   },
+  {
+    path: "/debounceAndThrottle",
+    name: "debounceAndThrottle",
+    component: () =>import(/* webpackChunkName: "about" */ "@/views/debounceAndThrottle/index.vue"),
+    meta:{
+      name:'防抖节流'
+    }
+  },
   
 ];
 

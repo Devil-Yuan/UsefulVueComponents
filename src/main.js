@@ -5,7 +5,7 @@
  * @@作者: Devilyuan
  * @Date: 2022-01-05 15:11:34
  * @@最新修改内容: 
- * @LastEditTime: 2022-01-24 14:25:33
+ * @LastEditTime: 2022-03-12 11:27:08
  */
 import Vue from "vue";
 import App from "./App.vue";
@@ -13,7 +13,10 @@ import router from "./router";
 import store from "./store";
 import Element from "element-ui";
 import 'element-ui/lib/theme-chalk/index.css';
+import './styles/index.scss';
 import BreadCrumb from '@/components/breadcrumb';
+import './directive/debounce';
+import './directive/throttle';
 //fundebug 使用测试
 import * as fundebug from "fundebug-javascript";
 import fundebugVue from "fundebug-vue";
